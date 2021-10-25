@@ -1,6 +1,9 @@
+/* Common styles */
+
 body {
   font-size: 16px;
   background-color: #efefef;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -39,4 +42,76 @@ h3 {
   font-weight: bold;
   color: #393c6c;
   line-height: 22px;
+}
+
+/* HEADER */
+
+header {
+  background-color: white;
+  border-bottom: 1px #f3735f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header img {
+  width: 200px;
+}
+
+/* MAIN*/
+main {
+  margin-top: 50px;
+}
+
+/* main header */
+.main-header {
+  text-align: center;
+}
+
+.main-header p {
+  font-size: 12px;
+  padding: 5px;
+  color: #6c6c6c;
+}
+.temps {
+  background-color: #8a98b1;
+  color: white;
+  width: 400px;
+  margin: 0 auto 50px;
+  line-height: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+/* images */
+
+.img-crepes {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-crepes img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+/* ingredients */
+
+.recette li {
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 25px;
+  color: #6c6c6c;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: #6c6c6c;
 }
